@@ -8,6 +8,6 @@ while len(num) > 1:
     print(" * ".join(num), "=", result)
     num = str(result)
     steps = steps + 1
-print("\nNo more steps.\n")
+print("No more steps.\n")
 print(f"This program took {steps} step(s)\n")
 print("Program ending.")
